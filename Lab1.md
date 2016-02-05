@@ -1,6 +1,7 @@
 #Lab 1
 
 ###Linux tree intsallation
+![Linux Tree](https://cloud.githubusercontent.com/assets/6782430/12841438/caa1b490-cbb9-11e5-9a00-fd80bdcfdcb2.PNG)
 
 ###Regex
 #####Practice
