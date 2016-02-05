@@ -29,3 +29,8 @@
 ![beginner 5](https://cloud.githubusercontent.com/assets/6782430/12841436/ca9f9c14-cbb9-11e5-843e-f0f9b9903fe5.PNG)
 ###Blockly Solution
 ![Image](https://cloud.githubusercontent.com/assets/6782430/12841212/2a4649b2-cbb8-11e5-80e2-e875f31a9cfa.png)
+
+##Reflection
+I am considering projects that interest me but have not decided on anything as of yet.
+
+This project was very enlightening and I am looking forward to continued use of Github and Linux. I ran into a few issues with displaying images and am still not sure how to view images in the repository, but I was able to navigate this obstacle by storing my image locations in an Issue file. The regular expression and coding portion of this lab was fairly straightfoward but it proved to be a fun puzzle.   
