@@ -4,7 +4,7 @@
 
 ###Email: Atking@rpi.edu
 
-![Me](Me.jpg)
+![Me](Pictures/Me.jpg)
 
 
 
