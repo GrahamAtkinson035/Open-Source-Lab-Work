@@ -1,0 +1,16 @@
+Graham Atkinson 
+Open Source Lab 2
+2. Licenses determine who can legally use your code and how they can integrate it as well as what type of code you can use in your project. It is important to choose a license because your choice affects both the design and the distribution of your project. Choosing the wrong type of license can discourage others from using it or make it very difficult for you to implement other code that you need. For our project we will likely choose a permissive license. We intend to write the project from scratch, so using third-party code will not be a problem. We also do not intend to limit what others can use the code for. It's distribution will be flexible, and since it is unlikely a company would want to integrate our project we do not forsee any issues with compliance.
+
+3. Without a license your source code's distribution is limited. This means that the project will not grow and nobody else will be able to use your work. This is fine for some projects, but the entire point of open source projects is to allow others to publicly access and contribute to your work, which is not possible without a license. For this reason, using a project that doesn't have a license puts you in danger of breaking copyright laws.
+
+4. I agree that Gopher's decision to decide what the 'right thing' was instead of leaving that decision open to the users as the web did was what caused it to fail. Allowing the general public to contribute to the source code will cause your project to have much more general appeal than deciding which features you want to add yourself and how to add them. 
+
+5. Android uses the Apache License which allows for free distribution but does not allow for access to the source code. This is because people with an android device expect to have access to the Android OS, and updating the OS motivates people to buy an android device. People would be less motivated to buy such a device if their software became outdated. Android does not allow access to the source code however because many people use and rely on the Android OS and public changes to it could be dangerous. 
+
+6. A Cascading Style Sheet package like bootstrap. This project would fit best with a permissive license like the MIT license. This would allow anyone to use your project while modifying it how they choose, while still providing attribution to your work.
+
+7. GPL is best for a company as it allows them to distribute code that they privately develop. LGPL is best for a developer-it is similar to the GPL but restricts how others can use the code. Apache/BSD are better for the general good, as anyone can access the code and modify it to fir their individual needs.
+
+8. The project we have chosen to work on will involve programming a 'bot' to automatically play or complete a given game. We will begin with the game Minesweeper available on Windows OS. We will use this to practice and familiarize ourselves with what creating a bot entails, and from there potentially move on to larger, online games. We originally planned to create a bot for Blizzards' Hearthstone, but were discouraged by the company's anti-botting efforts. We will likely use the Apache License for this project so that anyone may access the code and use it to create their own bot.  
+  
