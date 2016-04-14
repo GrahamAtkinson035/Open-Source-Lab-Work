@@ -30,7 +30,7 @@ def convertHeader2(line):
   return line
   
 def convertHeader3(line):
-  line = re.sub(r'###(.*)', r'<h3>\1</h3>', line)
+  line = re.sub(r'\#\#\#(.*)', r'<h3>\1</h3>', line)
   return line
   
 def convertBlock(line):
@@ -41,4 +41,8 @@ for line in fileinput.input():
   line = line.rstrip() 
   line = convertStrong(line)
   line = convertEm(line)
+  line = convertHeader(line)
+  line = convertHeader2(line)
+  line = convertHeader3(line)
+  line = convertBlock(line)
   print '<p>' + line + '</p>',
