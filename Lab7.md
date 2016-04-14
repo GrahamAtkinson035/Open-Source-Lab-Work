@@ -8,3 +8,7 @@
 ![gitstats](gitstatsYACS.PNG) 
 
 The information gitstats gives matches what I found, however gitstats provides many more statistics such as commits per week, average commits per author, average file size, etc. 
+
+[YACS](https://youtu.be/G6Pbhy-9bHs)
+
+[Chrometana](https://youtu.be/9jbdDnekgO0)
