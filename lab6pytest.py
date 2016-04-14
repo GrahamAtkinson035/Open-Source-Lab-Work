@@ -35,6 +35,30 @@ class TestMarkdownPy(unittest.TestCase):
         self.assertEqual( 
                 run_markdown('**this should be wrapped in strong tags**'),
                 '<p><strong>this should be wrapped in strong tags</strong></p>')
+                
+    def test_header(self):
+        '''
+        Lines starting with pound signs should be wrapped in 'h1' tags
+        '''
+        self.assertEqual( 
+                run_markdown('#this should be wrapped in h1 tags'),
+                '<p><h1>this should be wrapped in h1 tags</h1></p>')
+                
+    def test_header2(self):
+        '''
+        Lines starting with two pound signs should be wrapped in 'h2' tags
+        '''
+        self.assertEqual( 
+                run_markdown('##this should be wrapped in h2 tags'),
+                '<p><h2>this should be wrapped in h2 tags</h2></p>')
+                
+    def test_block(self):
+        '''
+        Lines beginning with > tags should be wrapped in <blockquote> tags 
+        '''
+        self.assertEqual( 
+                run_markdown('>this should be wrapped in blockquote tags'),
+                '<p><blockquote>this should be wrapped in block tags</blockquote></p>')
 
 if __name__ == '__main__':
     unittest.main()
