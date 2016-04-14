@@ -14,5 +14,7 @@ The information gitstats gives matches what I found, however gitstats provides m
 [Chrometana](https://youtu.be/9jbdDnekgO0)
 
 #Part 2
+[python code](markdown.py)
+![lab6tests](Lab6Tests.PNG)
 
 
