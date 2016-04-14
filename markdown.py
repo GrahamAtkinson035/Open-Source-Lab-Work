@@ -26,11 +26,11 @@ def convertHeader(line):
   return line
   
 def convertHeader2(line):
-  line = re.sub(r'\##(.*)', r'<h2>\1</h2>', line)
+  line = re.sub(r'\#\#(.*)', r'<h2>\1</h2>', line)
   return line
   
 def convertHeader3(line):
-  line = re.sub(r'\###(.*)', r'<h3>\1</h3>', line)
+  line = re.sub(r'\#\#\#(.*)', r'<h3>\1</h3>', line)
   return line
   
 def convertBlock(line):
