@@ -22,15 +22,15 @@ def convertEm(line):
   return line
 
 def convertHeader(line):
-  line = re.sub(r'\#(.*)', r'<h1>\1</h1>', line)
+  line = re.sub(r'#(.*)', r'<h1>\1</h1>', line)
   return line
   
 def convertHeader2(line):
-  line = re.sub(r'\#\#(.*)', r'<h2>\1</h2>', line)
+  line = re.sub(r'##(.*)', r'<h2>\1</h2>', line)
   return line
   
 def convertHeader3(line):
-  line = re.sub(r'\#\#\#(.*)', r'<h3>\1</h3>', line)
+  line = re.sub(r'###(.*)', r'<h3>\1</h3>', line)
   return line
   
 def convertBlock(line):
