@@ -41,8 +41,8 @@ for line in fileinput.input():
   line = line.rstrip() 
   line = convertStrong(line)
   line = convertEm(line)
-  line = convertHeader(line)
-  line = convertHeader2(line)
   line = convertHeader3(line)
+  line = convertHeader2(line)
+  line = convertHeader(line)
 #  line = convertBlock(line)
   print '<p>' + line + '</p>',
