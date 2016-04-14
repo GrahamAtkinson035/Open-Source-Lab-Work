@@ -1,7 +1,7 @@
 '''
 Test markdown.py with unittest
 To run tests:
-    python test_markdown_unittest.py
+    python lab6pytest.py
 '''
 
 import unittest
