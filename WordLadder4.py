@@ -23,7 +23,7 @@ def generate_graph(words):
 def words_graph():
     """Return the words example graph from the Stanford GraphBase"""
     import gzip
-    fh=gzip.open('words_dat.txt.gz','r')
+    fh=gzip.open('words4_dat.txt.gz','r')
     words=set()
     for line in fh.readlines():
         line = line.decode()
@@ -36,15 +36,14 @@ def words_graph():
 if __name__ == '__main__':
     from networkx import *
     G=words_graph()
-    print("Loaded words5.txt containing 5757 five-letter English words.")
+    print("Loaded words4_dat.txt.gz containing all four-letter English words.")
     print("Two words are connected if they differ in one letter.")
     print("Graph has %d nodes with %d edges"
           %(number_of_nodes(G),number_of_edges(G)))
     print("%d connected components" % number_connected_components(G))
 
-    for (source,target) in [('chaos','order'),
-                            ('nodes','graph'),
-                            ('pound','marks')]:
+    for (source,target) in [('cold','warm'),
+                            ('love','hate')]:
         print("Shortest path between %s and %s is"%(source,target))
         try:
             sp=shortest_path(G, source, target)
