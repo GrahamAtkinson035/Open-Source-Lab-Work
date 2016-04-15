@@ -13,7 +13,7 @@ def generate_graph(words):
             j = lookup[c] # lowercase.index(c)
             for cc in lowercase[j+1:]:
                 yield left + cc + right
-    candgen = ((word, cand) for word in sorted(words) 
+    candgen = ((word, cand) for word in sorted(words)
                for cand in edit_distance_one(word) if cand in words)
     G.add_nodes_from(words)
     for word, cand in candgen:
@@ -36,15 +36,14 @@ def words_graph():
 if __name__ == '__main__':
     from networkx import *
     G=words_graph()
-    print("Loaded words_dat.txt containing 5757 five-letter English words.")
-    print("Two words are connected if they differ in one letter in the same position.")
+    print("Loaded words5.txt containing 5757 five-letter English words.")
+    print("Two words are connected if they differ in one letter.")
     print("Graph has %d nodes with %d edges"
           %(number_of_nodes(G),number_of_edges(G)))
     print("%d connected components" % number_connected_components(G))
 
     for (source,target) in [('chaos','order'),
                             ('nodes','graph'),
-                            ('moron','smart'),
                             ('pound','marks')]:
         print("Shortest path between %s and %s is"%(source,target))
         try:
