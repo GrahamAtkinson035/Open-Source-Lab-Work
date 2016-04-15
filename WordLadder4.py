@@ -50,7 +50,7 @@ def words_graph():
 if __name__ == '__main__':
     from networkx import *
     G=words_graph()
-    print("Loaded words_dat.txt containing A BUNCH OF 4-letter English words.")
+    print("Loaded words4_dat.txt containing all 4-letter English words.")
     print("Two words are connected if they differ in one letter in any position.")
     print("Graph has %d nodes with %d edges"
           %(number_of_nodes(G),number_of_edges(G)))
