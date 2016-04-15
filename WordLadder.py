@@ -62,14 +62,14 @@ def words_graph():
     try:
         try:
             import gzip
-            fh=gzip.open('words_dat.txt.gz','r')
+            fh=gzip.open('words4.txt.gz','r')
         except:
-            fh=open("words_dat.txt","r")
+            fh=open("words4.txt","r")
     except IOError:
-        raise "File words_dat.txt not found."
+        raise "File words4.txt not found."
 
     G = Graph(name="words")
-    sys.stderr.write("Loading words_dat.txt: ")
+    sys.stderr.write("Loading words4.txt: ")
     for line in fh.readlines():
         if line.startswith("*"):
             continue
